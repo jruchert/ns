@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Bootstrap Example
+        </title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
+        </script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js">
+        </script>
+    </head>
+    <body>
+        <div class ="container">
+            <h1> Login Sign Up  
+            </h1> 
+            <form action="Final.php" method="post">
+                <div class ="form-group">
+                    <label for="">First Name:
+                    </label>
+                    <input type ="text" name="fn" value="" class="form-control">
+                    <br>
+                    <label for="">Last Name:
+                    </label>
+                    <input type ="text" name="ln" value="" class="form-control">
+                    <br>
+                    <label for="">Username:
+                    </label>
+                    <input type ="text" name="un" value="" class="form-control">
+                    <br>
+                    <label for="">Password:
+                    </label>
+                    <input type ="text" name="pw" value="" class="form-control">
+                    <br>
+                    <label for="">Email:
+                    </label>
+                    <input type = "text" name="email" value="" class="form-control">
+                </div>
+                <br>
+                <div class ="form-group">
+                    <label for="">Please choose which type of user you are:
+                    </label>
+                    <br>
+                    <input type ="radio" name="a" value="s"> Student 
+                    <br>
+                    <input type ="radio" name="a" value="t"> Teacher 
+                    <br>
+                    <input type ="radio" name="a" value="c"> Community 
+                    <br>
+                </div>
+                <div class ="form-group">
+                    <input type ="checkbox" name="cb1" > Terms of Services 
+                    <br>
+                    <input type ="checkbox" name="cb2"> Would you like to be updated with emails? 
+                    <br>
+                </div>
+                <input type = "submit" value="submit" class="btn btn-default">
+            </form>
+        </div>
+    </body>
+</html>
